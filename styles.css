@@ -1,0 +1,119 @@
+html, body
+{
+    margin: 0;
+    height: 100%;
+    font-family: 'Comic Sans MS';
+}
+
+.border
+{
+    background-color: #6d4a39ee;
+    display: grid;
+    height: 100%;
+    grid-template-columns: 13% auto 13%;
+}
+
+.content
+{
+    /* overflow: auto; */
+    grid-column-start: 2;
+    background-color: #b3f0b2ee;
+    border: 0.5em dashed #6d4a39ee;
+    
+}
+
+.header
+{
+    display: flex;
+    justify-content: center;
+    margin: auto 2em auto 2em;
+    text-decoration-line: underline;
+    color: #392a22ee;
+}
+
+h1
+{
+    height:fit-content;
+}
+
+
+p
+{
+    font-size: large;
+    color: #392a22ee;
+}
+
+.post-container
+{
+    margin-left: 4em;
+    color: #392a22ee;
+}
+
+.post
+{
+    margin-left: 1em;
+    padding: 0.3em;
+    border: 0.2em solid #6d4a39ee;
+    width:fit-content;
+    background-color: beige;
+}
+
+a
+{
+    width: fit-content;
+    height: fit-content;
+}
+
+
+.blog-content
+{
+    margin: 2em 2em 0 2em;
+
+}
+
+.back-button
+{
+    float:inline-end;
+    margin: 0 1em 7em 2em;
+    padding: 0 1em 0 1em;
+    border: 0.2em solid #6d4a39ee;
+    background-color: beige;
+}
+
+.about-button
+{
+    float:inline-end;
+    margin: auto;
+    padding: 0 1em 0 1em;
+    border: 0.2em solid #6d4a39ee;
+    position:fixed;
+    bottom:2em;
+    right: 16%;
+    background-color: beige;
+}
+
+
+
+.scrollbar {
+    height: auto;
+    width: auto;
+    overflow: auto;
+    padding: 0 10px;
+}
+
+/*       ScrollBar 1        */
+
+#scrollbar1::-webkit-scrollbar {
+    width: 10px;
+}
+
+#scrollbar1::-webkit-scrollbar-track {
+    border-radius: 8px;
+    background-color: #b3f0b2ee;
+    border: 1px solid #cacaca;
+}
+
+#scrollbar1::-webkit-scrollbar-thumb {
+    border-radius: 8px;
+    background-color: #392a22ee;
+}
