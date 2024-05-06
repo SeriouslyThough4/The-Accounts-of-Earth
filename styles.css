@@ -18,8 +18,8 @@ html, body
     /* overflow: auto; */
     grid-column-start: 2;
     background-color: #b3f0b2ee;
-    border: 0.5em dashed #6d4a39ee;
-    
+    border-left: 0.5em dashed #6d4a39ee;
+    border-right: 0.5em dashed #6d4a39ee;
 }
 
 .header
@@ -45,7 +45,12 @@ p
 
 .post-container
 {
-    margin-left: 4em;
+    margin-left: 2em;
+    padding: 1em;
+    background-color: beige;
+    width: 80%;
+    height: 100%;
+    border: 0.3em dashed #6d4a39ee;
     color: #392a22ee;
 }
 
@@ -62,6 +67,7 @@ a
 {
     width: fit-content;
     height: fit-content;
+    text-decoration: none;
 }
 
 
@@ -90,6 +96,7 @@ a
     bottom:2em;
     right: 16%;
     background-color: beige;
+    flex-shrink: auto;
 }
 
 
